@@ -8,6 +8,10 @@ import classes from '../Users/AddUser.module.css';
 
 const AddUser = (props) => {
 
+    // using refs components are un controlled 
+    // but using state components are under 
+    // controlled because state is managed by REACT
+    
     const nameInputRef = useRef();
     const ageInputRef = useRef();
 
